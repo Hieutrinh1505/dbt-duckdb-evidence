@@ -1,0 +1,6 @@
+# This file was automatically generated
+name: testdb
+type: duckdb
+options:
+  filename: 'test.duckdb'
+  
