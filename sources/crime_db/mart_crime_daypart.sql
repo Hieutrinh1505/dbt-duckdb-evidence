@@ -1,1 +1,0 @@
-select * from mart_crime_daypart
