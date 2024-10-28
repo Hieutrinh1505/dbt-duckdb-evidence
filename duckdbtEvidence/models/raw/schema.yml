@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: raw_crime
+    columns:
+      - name: incident
+        tests:
+          - not_null
+      - name: date_occur
+        tests:
+          - not_null
+      - name: time_occur
+        tests:
+          - not_null
+      - name: nibrs_class
+        tests:
+          - not_null
+      - name: nibrs_description
+        tests:
+          - not_null
+      - name: offense_count
+        tests:
+          - not_null
+      - name: zipcode
+        tests:
+          - not_null
+      

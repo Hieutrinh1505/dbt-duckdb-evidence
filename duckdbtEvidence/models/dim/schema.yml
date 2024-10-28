@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: dim_class
+    columns:
+      - name: nibrs_class
+        tests:
+          - not_null
+          - unique
+      - name: nibrs_description
+        tests:
+          - not_null
+          - unique
+  - name: dim_dates
+    columns:
+      - name: day_name
+        tests:
+          - not_null
+  - name: dim_zip
+    columns:
+      - name: zipcode
+        tests:
+          - not_null
+          - unique
+      - name: area
+        tests:
+          - not_null

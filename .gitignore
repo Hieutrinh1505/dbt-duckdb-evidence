@@ -1,2 +1,5 @@
 node_modules/
 sources/crime_db/test.duckdb
+duckdbtEvidence/target/
+duckdbtEvidence/dbt_packages/
+duckdbtEvidence/logs/
