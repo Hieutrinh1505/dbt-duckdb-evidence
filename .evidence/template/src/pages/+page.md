@@ -5,7 +5,7 @@ title: WELCOME TO MY APP - 2024 HOUSTON CRIME ANALYTICS
 ### Tech stack use: DBT + Duckdb + Evidence
 [Dataset using for this project](https://www.houstontx.gov/police/cs/xls/NIBRSPublicView2024.xls)
 
-[Github Link Coming soon!]()
+[Github Link Coming soon!](https://github.com/Hieutrinh1505/dbt-duckdb-evidence)
 
 
 
